@@ -1,3 +1,19 @@
+# Deprecation Notice
+
+⚠️ **Important Update**: The use of `DasBen/gh-upload-sbom` has been deprecated.
+
+Please transition to using `DependencyTrack/gh-upload-sbom` instead, as it is now the preferred and supported method.
+
+## How to Migrate
+
+1. In your GitHub Actions workflow file, locate the usage of `DasBen/gh-upload-sbom`.
+2. Replace it with `DependencyTrack/gh-upload-sbom`.
+3. Make any necessary adjustments to parameters or configurations as required by the new action.
+
+Please refer to the [DependencyTrack/gh-upload-sbom documentation](https://github.com/DependencyTrack/gh-upload-sbom) for detailed instructions and examples.
+
+Thank you for your attention to this important update!
+
 # Upload BOM to Dependency-Track action
 
 This action uploads a software bill of materials file to a Dependency-Track server.
